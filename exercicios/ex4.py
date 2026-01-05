@@ -6,3 +6,4 @@ pi = 3.1415
 pi_arredondado = math.floor(pi)
 
 print(f'O valor arredondado de pi é: {pi_arredondado}')
+print ('teste')
