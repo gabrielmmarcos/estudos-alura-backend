@@ -3,10 +3,9 @@ import os
 # Dicionário correto (não lista)
 dados = {
     'nome': 'Gabriel',
-    'idade': 22,
+    'idade': 21,
     'cidade': 'SP'
 }
-
 def titulo():
     print('Te Conhecendo melhor\n\n\n')
 
