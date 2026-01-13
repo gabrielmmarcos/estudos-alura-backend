@@ -1,6 +1,6 @@
 import os
 
-# Dicionário correto (não lista)
+# Dicionário
 dados = {
     'nome': 'Gabriel',
     'idade': 21,
