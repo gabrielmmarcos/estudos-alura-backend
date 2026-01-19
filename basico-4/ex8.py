@@ -14,6 +14,8 @@ soma = lambda a, b: a + b
 subtracao = lambda a, b: a - b
 multiplicacao = lambda a, b: a * b
 divisao = lambda a, b: a / b
+teste = 3
+
 
 numero_1 = int(input('Digite o primeiro número: '))
 numero_2 = int(input('Digite o segundo número: '))
