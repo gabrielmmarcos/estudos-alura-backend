@@ -4,7 +4,7 @@
 
 # Crie um programa que peça ao usuário o valor da conta e a porcentagem de gorjeta. O programa deve calcular e exibir o valor da gorjeta e o total a ser pago.
 
-def titudo():
+def titulo():
     print('-------------------------')
     print('PROGRAMA CALCULA GORJETA!')
     print('-------------------------')
@@ -22,7 +22,7 @@ def calcula_gorjeta(valor_conta, gorjeta_porcentagem):
     return gorjeta_valor
 
 def total_conta(valor_conta, valor_gorjeta):
-    total = valor_conta + valor+gorjeta
+    total = valor_conta + valor_gorjeta
     return total
 
 def dados_finais(gorjeta_valor, total):
@@ -33,9 +33,9 @@ def main():
     titulo()
     conta = input_conta()
     gorjeta = input_gorjeta()
-    calcula_gorjeta = calcula_gorjeta(conta, gorjeta)
-    total = total_conta (conta, calcula_gorjeta)
-    dados_finais(calcula_gorjeta, total)
+    gorjeta_calcula = calcula_gorjeta(conta, gorjeta)
+    total = total_conta (conta, gorjeta_calcula)
+    dados_finais(gorjeta_calcula, total)
     
 if __name__ == '__main__':
     main()
