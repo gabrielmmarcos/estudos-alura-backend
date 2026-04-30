@@ -116,7 +116,7 @@ def verifica_escolha():
             remover_tarefa()
         else:
             os.system('clear')
-            sair_programa()
+            sair()
     
     except ValueError:
         print('Erro', ValueError)

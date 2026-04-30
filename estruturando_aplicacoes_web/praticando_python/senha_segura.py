@@ -6,3 +6,16 @@
 
 # Senha gerada: A1b@C3d$E5f&  
 
+import random
+
+letras = 'abcdefghijklmnopqrstuvwxyz'
+numeros = '0123456789'
+caracteres_especias = '!@#$%¨&*()|<,.>:;/?°´~[]{`^}}ºª'
+
+senha = ''
+
+for i in range(12):
+    senha[random.choice(letras)]
+
+str(senha)
+print(senha)
