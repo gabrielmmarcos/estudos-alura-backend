@@ -16,3 +16,14 @@ notas = [85, 70, 90, 60, 75]
 notas_ordenadas = sorted(notas)
 
 print(notas_ordenadas)
+
+#fazendo essa porra na mao
+
+notas_ordenadas_mao = []
+
+for i in range(0, len(notas) - 1):
+    if notas[i]< notas[i + 1]:
+        notas_ordenadas.insert(notas[i], notas[i + 1])
+        continue
+    notas_ordenadas_mao.append(notas[i])
+print(notas_ordenadas_mao)
